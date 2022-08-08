@@ -1,0 +1,120 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>C-Members</title>
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/assets/css/css.css">
+</head>
+<body>
+    <appbar>
+        <home id="drawer-toggle"></home>
+        <home>
+            <h2>C-Members</h2>
+        </home>
+        <home></home>
+    </appbar>
+    
+    <drawer>
+        <home></home>
+        <home>
+            <card>
+                <header id="drawer-option">
+                    <img src="javascript.svg" alt="">
+                    Módulo 01
+                </header>
+                <home id="drawer-option-box">
+                    <p id="home1">home1</p>
+                    <p id="home2">home2</p>
+                </home>
+            </card>
+            <card>
+                <header id="drawer-option">
+                    <img src="javascript.svg" alt="">
+                    Módulo 02
+                </header>
+                <home id="drawer-option-box">
+                    <p id="home1">home1</p>
+                    <p id="home2">home2</p>
+                </home>
+            </card>
+        </home>
+        <home></home>
+    </drawer>
+    
+    <home></home>
+    
+    <footer></footer>
+    
+    
+    <script src="js.js"></script>
+    <script id="script">
+        var load = document.createElement( "script" ),
+            views = document.createElement( "script" ),
+            home2 = document.createElement( "script" );
+        
+        views.src = "./src/views/views.js";
+        
+        document.body.appendChild( views );
+    </script>
+    <!-- <script>
+        window.addEventListener( "load", event => {
+            var home1Btn = document.querySelector( "#home1" ),
+                home2Btn = document.querySelector( "#home2" ),
+                home = document.querySelector( "body > home" ),
+                script = document.querySelector( "#script" );
+
+            home1Btn.addEventListener( "click", event => {
+                home.innerHTML = `
+                    <page>
+                        <card>
+                            <header>
+                                <h2>título</h2>
+                            </header>
+                            <home>
+                                <p>dsgfd dfg1d5f d 51d1f 1df61 d1f</p>
+                            </home>
+                        </card>
+                        <card>
+                            <header>
+                                <h2>título</h2>
+                            </header>
+                            <home>
+                                <p>dsgfd dfg1d5f d 51d1f 1df61 d1f</p>
+                            </home>
+                        </card>
+                    </page>
+                `;
+            } );
+
+            home2Btn.addEventListener( "click", event => {
+                home.innerHTML = `
+                    <page>
+                        <card>
+                            <header>
+                                <h2>título 2</h2>
+                            </header>
+                            <home>
+                                <p>hdfoshfih shsdhfsidh sd gsfd sdfius gsgd fibsibfvu fgvsdli sd</p>
+                            </home>
+                        </card>
+                        <card>
+                            <header>
+                                <h2>título 2</h2>
+                            </header>
+                            <home>
+                                <p>hdfoshfih shsdhfsidh sd gsfd sdfius gsgd fibsibfvu fgvsdli sd</p>
+                            </home>
+                        </card>
+                    </page>
+                `;
+            } );
+        } );
+    </script> -->
+</body>
+</html>
