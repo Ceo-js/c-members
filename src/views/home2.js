@@ -16,7 +16,7 @@ window.addEventListener( "load", () => {
         </card>
         <card>
             <header>
-                <h2>título 2</h2>
+                <h2>título 2yjytjyuju</h2>
             </header>
             <home>
                 <p>hdfoshfih shsdhfsidh sd gsfd sdfius gsgd fibsibfvu fgvsdli sd</p>
